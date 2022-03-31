@@ -7,3 +7,50 @@ body{
     background-color: #111111;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
+/*Header*/
+.main__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__header__left, .main__header__right{
+    display: flex;
+}
+.main__header__left a i{
+    color: #67d669;
+}
+.recording, .main__header__left{
+    margin-left: 5px;
+}
+.recording{
+    display: flex;
+    align-items: center;
+}
+.recording p, .main__header__right p {
+    color: #fff;
+    font-size: 14px;
+}
+.recording,  .main__header__left a i, .main__header__right{
+    background-color: #000;
+    border-radius: 5px;
+}
+.main__header__left i, .main__header__right i{
+    padding: 7px;
+}
+.recording a i {
+    color: #fff;
+}
+.main__header__right a i{
+    color: #fff;
+}
+.main__header__right{
+    background-color: #000;
+    margin-right: 5px;
+    align-items: center;
+    padding-right: 5px;
+}
+.main__header__right p{
+    margin-left: 5px;
+}
+/*F.Header*/
